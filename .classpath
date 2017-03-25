@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/apache-xml/apache-xml-xerces.jar"/>
+	<classpathentry kind="lib" path="lib/json-gson/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/json-jackson/jackson-all-1.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/json-jackson/jackson-mapper-asl.jar"/>
+	<classpathentry kind="lib" path="lib/json-javax/javax.json-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/speech/cmu_time_awb.jar"/>
+	<classpathentry kind="lib" path="lib/speech/cmu_us_kal.jar"/>
+	<classpathentry kind="lib" path="lib/speech/cmudict04.jar"/>
+	<classpathentry kind="lib" path="lib/speech/cmulex.jar"/>
+	<classpathentry kind="lib" path="lib/speech/cmutimelex.jar"/>
+	<classpathentry kind="lib" path="lib/speech/en_us.jar"/>
+	<classpathentry kind="lib" path="lib/speech/freetts-jsapi10.jar"/>
+	<classpathentry kind="lib" path="lib/speech/freetts.jar"/>
+	<classpathentry kind="lib" path="lib/speech/jsapi.jar"/>
+	<classpathentry kind="lib" path="lib/speech/mbrola.jar"/>
+	<classpathentry kind="lib" path="lib/sphinx4/sphinx4-core-1.0-20150630.174404-9.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
